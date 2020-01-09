@@ -1,0 +1,6 @@
+ <com.padcmyanmar.padc9.indoorplants.component.SmartRecyclerView
+        android:id="@+id/rv_leaf_plant_list"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium_x_10"
+        android:layout_marginStart="@dimen/margin_medium_3"
+        android:layout_height="wrap_content"/>

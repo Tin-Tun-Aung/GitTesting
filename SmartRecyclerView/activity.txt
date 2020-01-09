@@ -1,0 +1,8 @@
+smartScrollListener = SmartScrollListener(object : SmartScrollListener.OnSmartScrollListener {
+            override fun onListEndReach() {
+               plantByCategoryPresenter.loadMorePlantData(this@PlantsByCategoryActivity,categoryName,++page)
+                Log.d("category name",categoryName)
+            }
+        })
+
+        rv_leaf_plant_list.addOnScrollListener(smartScrollListener)
